@@ -6,7 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/ExampleAssets/Scenes/SampleScene.unity
+    path: Assets/Scenes/MainMenu.unity
+    guid: 4b59db020b242cd428f73bd439ba0996
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
@@ -16,6 +19,8 @@ EditorBuildSettings:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: de8a8e4f987434338a4b1062feb8d069,
       type: 2}
     com.unity.addressableassets: {fileID: 11400000, guid: 9fe3f119b32a46f47b58d8d109f8c967,
+      type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 175840c6afd101945b9056e50d59d27e,
       type: 2}
     com.unity.xr.arcore.PlayerSettings: {fileID: 11400000, guid: c2f7b8d7c0bff4d10874cbcf3f24af78,
       type: 2}
