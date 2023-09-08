@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Localization_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: a150413473b61204a97e05e1fd64cf39, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 3446946371847848001
+  m_TableData:
+  - m_Id: 35242844160
+    m_Localized: Enter your player name. The name can be entered only once and cannot
+      be changed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 503989870592
+    m_Localized: Player name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547321225216
+    m_Localized: Confirm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 590149263360
+    m_Localized: The Ghost of Jaunpils
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5692461359104
+    m_Localized: The player's task is to catch the ghost in all the places it appears
+      in the fastest time possible! The location of the ghost can be determined in
+      the castle 3d mode. A ghost can be caught by tapping on it in ghost capture
+      mode.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5767019307008
+    m_Localized: Jaunpils Castle is an ancient Livonian Order castle, built in 1301.
+      The castle has been burned down and rebuilt many times. Over the centuries,
+      numerous castle legends and tales have accumulated. One of the most famous
+      ones is that of baron Matiass fon der Reke, who ruled in the age of chivalry.
+      When the baron died, old folks used to tell stories that his spirit wandered
+      through the castle, as during his lifetime, he was fierce and ruthless, so
+      his soul knows no rest.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5817199960064
+    m_Localized: 1st floor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867019902976
+    m_Localized: 2nd floor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5916751765504
+    m_Localized: 3rd floor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5963019132928
+    m_Localized: Castle roof
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6004043620352
+    m_Localized: Ghost has fled! Look for it in the castle model!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6051833520128
+    m_Localized: Poor connection, go outside!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6113204576256
+    m_Localized: 'Distance to ghost: '
+    m_Metadata:
+      m_Items:
+      - rid: 3446946371847848001
+  - m_Id: 6260768579584
+    m_Localized: Tap the ghost!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6314581499904
+    m_Localized: No.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6369304584192
+    m_Localized: Player name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6419220996096
+    m_Localized: Time
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21822177484800
+    m_Localized: Leaderboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22532730331136
+    m_Localized: Congratulations!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31572638244864
+    m_Localized: Thank you, kind soul, for helping to find the spirit of Baron Rekis
+      and freeing it from its centuries-long curse!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45267598647296
+    m_Localized: 'Score: '
+    m_Metadata:
+      m_Items:
+      - rid: 3446946371847848001
+  - m_Id: 63066681319424
+    m_Localized: I agree with the <u>Privacy Policy</u>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69333663555584
+    m_Localized: Locate the ghost!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69390450237440
+    m_Localized: Explore the castle model and find where the ghost is hiding!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69440656056320
+    m_Localized: Capture the ghost!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69482670399488
+    m_Localized: 'Go to the ghost''s location! Open the AR mode, find the ghost with
+      your camera and click on it to capture it! '
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 3446946371847848001
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 002063578f050000002023af2b290000

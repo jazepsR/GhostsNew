@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97269afb30aa84742ae3f3342603618a, type: 3}
+  m_Name: Sprites_lv
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: lv
+  m_SharedData: {fileID: 11400000, guid: b4e864477cb30d04d9d033b63e74b15d, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 632926969856
+    m_Localized: 980d795a30faf5a4aac9c882c871afe3[UI_BUTTON_START_lv]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 839672602624
+    m_Localized: 8a5cecad025fc2c4a93b817da14440b1[UI_BUTTON_NEXT_lv]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1078856982528
+    m_Localized: 93d367a77e2428645a2dd8b9aeaae9bc[UI_BUTTON_PLAY_lv]
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

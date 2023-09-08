@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Localization_lv
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: lv
+  m_SharedData: {fileID: 11400000, guid: a150413473b61204a97e05e1fd64cf39, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 3446946371847848000
+  m_TableData:
+  - m_Id: 35242844160
+    m_Localized: "Ierakstiet J\u016Bsu sp\u0113l\u0113t\u0101ja v\u0101rdu. V\u0101rdu
+      var ierakst\u012Bt tikai vienu reizi un to nevar\u0113s izmain\u012Bt"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 503989870592
+    m_Localized: "Sp\u0113l\u0113t\u0101ja v\u0101rds"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 547321225216
+    m_Localized: "Apstiprin\u0101t"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 590149263360
+    m_Localized: Jaunpils Spoks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5692461359104
+    m_Localized: "Sp\u0113l\u0113t\u0101ja uzdevums ir no\u0137ert spoku vis\u0101s
+      t\u0101 par\u0101d\u012B\u0161an\u0101s viet\u0101s p\u0113c iesp\u0113jas
+      \u0101tr\u0101k\u0101 laik\u0101! Spoka atra\u0161an\u0101s vietu var noteikt
+      pils 3D re\u017E\u012Bm\u0101. Spoku var no\u0137ert uzspie\u017Eot uz t\u0101
+      spoku \u0137er\u0161anas re\u017E\u012Bm\u0101"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5767019307008
+    m_Localized: "Jaunpils Pils - sena Livonijas orde\u0146a pils, celta 1301. gad\u0101.
+      Vis\u0101 t\u0101s past\u0101v\u0113\u0161anas laik\u0101 pils ir vair\u0101kas
+      reizes nodedzin\u0101ta l\u012Bdz pamatiem un celta no jauna. Gadsimtiem ejot
+      par pili ir kl\u012Bdu\u0161as daudz teikas un le\u0123endas. Viens no slaven\u0101kajiem
+      pils viduslaiku \u012Bpa\u0161niekiem ir bijis barons Matiass fon der Reke,
+      kur\u0161 izc\u0113lies ar \u012Bpa\u0161u \u013Caunumu un ne\u017E\u0113l\u012Bbu.
+      Vecie \u013Caudis st\u0101sta, ka, d\u0113\u013C t\u0101, vi\u0146a dv\u0113sele
+      v\u0113l jo proj\u0101m nevar atrast mieru un kl\u012Bst pa pili."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5817199960064
+    m_Localized: "1. st\u0101vs"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5867019902976
+    m_Localized: "2. st\u0101vs"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5916751765504
+    m_Localized: "3. st\u0101vs"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5963019132928
+    m_Localized: Pils jumts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6004043620352
+    m_Localized: "Spoks ir izb\u0113dzis! Mekl\u0113jiet to pils model\u012B!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6051833520128
+    m_Localized: "V\u0101j\u0161 savienojums, izejiet \u0101r\u0101!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6113204576256
+    m_Localized: "Att\u0101lums l\u012Bdz spokam: "
+    m_Metadata:
+      m_Items:
+      - rid: 3446946371847848000
+  - m_Id: 6260768579584
+    m_Localized: Uzspiediet uz spoka!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6314581499904
+    m_Localized: Nr.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6369304584192
+    m_Localized: "Sp\u0113l\u0113t\u0101ja v\u0101rds"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6419220996096
+    m_Localized: Laiks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21822177484800
+    m_Localized: "Rezult\u0101ti"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22532730331136
+    m_Localized: Apsveicu!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31572638244864
+    m_Localized: "Paldies Tev, laipn\u0101 dv\u0113sele, ka pal\u012Bdz\u0113ji atrast
+      barona Re\u0137a garu un atbr\u012Bvoji to! no gadsimtiem ilg\u0101 l\u0101sta!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45267598647296
+    m_Localized: 'Punkti: '
+    m_Metadata:
+      m_Items:
+      - rid: 3446946371847848000
+  - m_Id: 63066681319424
+    m_Localized: "Es piekr\u012Btu <u>Priv\u0101tuma Politikai</u>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69333663555584
+    m_Localized: Atrodi spoku!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69390450237440
+    m_Localized: "Izp\u0113ti pils modeli un atrodi kur\u0101 st\u0101v\u0101 sl\u0113pjas
+      spoks!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69440656056320
+    m_Localized: Notver spoku!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69482670399488
+    m_Localized: "Dodies uz spoka atra\u0161an\u0101s vietu! Atver AR re\u017E\u012Bmu,
+      atrodi spoku ar savu kameru un uzspied uz t\u0101, lai notvertu!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 3446946371847848000
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 002063578f050000002023af2b290000
