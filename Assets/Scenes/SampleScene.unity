@@ -828,6 +828,12 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 779279fe349068e42bd51de4426159e9, type: 3}
+--- !u!1 &1489482454 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5372088235613458894, guid: bd346e707a7bfe44e99482931b21ba89,
+    type: 3}
+  m_PrefabInstance: {fileID: 1903050753}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1562069058 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5372088236369721013, guid: bd346e707a7bfe44e99482931b21ba89,
@@ -948,7 +954,7 @@ PrefabInstance:
         type: 3}
       propertyPath: ghostLight
       value: 
-      objectReference: {fileID: 1710119733}
+      objectReference: {fileID: 1489482454}
     - target: {fileID: 5677022019571546951, guid: 38a6619c378f6de4cb6dd94948ed824b,
         type: 3}
       propertyPath: ghostLight
