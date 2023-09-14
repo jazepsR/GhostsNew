@@ -494,7 +494,7 @@ PrefabInstance:
         type: 3}
       propertyPath: soundFX
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1861671305}
     m_RemovedComponents:
     - {fileID: 4044955215453328196, guid: 9e104e99b4c55c342a61987237adea1b, type: 3}
     m_AddedGameObjects: []
@@ -566,3 +566,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1861671305 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7625513486767505512, guid: 9e104e99b4c55c342a61987237adea1b,
+    type: 3}
+  m_PrefabInstance: {fileID: 802915714}
+  m_PrefabAsset: {fileID: 0}
