@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerInput : MonoBehaviour
 {
     private Camera _camera;
-    private float xRotationMult = -5;
-    private float yRotationMult = 1.5f;
+    private float xRotationMult = -0.5f;
+    private float yRotationMult = 0.15f;
     private float scaleFactor = -0.00003f;
     float touchDist = 0;
     float lastDist = 0;
