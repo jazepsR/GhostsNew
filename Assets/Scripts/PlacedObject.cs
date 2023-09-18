@@ -8,14 +8,14 @@ public class PlacedObject : MonoBehaviour
     [HideInInspector] public bool disappearing = false;
     [HideInInspector] public bool collected = false;
     [HideInInspector] public bool gotHit = false;
-    private Animator anim;
+    [HideInInspector] public Animator anim;
     [SerializeField] private float disableTime = 0.5f;
     [SerializeField] private float randomDisplacement = 7f;
     public GameObject ghostLight;
     public Transform rootBone; 
     public float moveSpeed = 1f;
     public int health = 3;
-    Vector3 target;
+    Vector3 target=Vector3.one;
     // Start is called before the first frame update
     void Awake()
     {
@@ -39,6 +39,8 @@ public class PlacedObject : MonoBehaviour
     }
     private void Update()
     {
+        if (target == null)
+            SetTarget();
         float dist = Vector3.Distance(transform.position, target);
         //Debug.LogError("dist: " + dist);
         if (dist > 1)

@@ -140,6 +140,10 @@ MonoBehaviour:
       atrodi spoku ar savu kameru un uzspied uz t\u0101, lai notvertu!"
     m_Metadata:
       m_Items: []
+  - m_Id: 21002348044427264
+    m_Localized: "Att\u0101lums l\u012Bdz spokam: "
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

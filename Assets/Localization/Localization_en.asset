@@ -137,6 +137,10 @@ MonoBehaviour:
       your camera and click on it to capture it! '
     m_Metadata:
       m_Items: []
+  - m_Id: 21002348044427264
+    m_Localized: 'Distance to ghost: '
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

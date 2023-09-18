@@ -121,6 +121,10 @@ MonoBehaviour:
     m_Key: tutorial_body_2
     m_Metadata:
       m_Items: []
+  - m_Id: 21002348044427264
+    m_Key: "distance_to_ghost\t"
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

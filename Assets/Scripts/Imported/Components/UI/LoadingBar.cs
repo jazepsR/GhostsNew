@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Localization;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
@@ -22,6 +23,7 @@ namespace ARLocation.UI
         private RectTransform rectTransform;
         private RectTransform fillBarRect;
         private Image fillBarImage;
+        [SerializeField] private LocalizedString distanceToGhostLocalized;
 
         // Use this for initialization
         void Start()
@@ -54,7 +56,7 @@ namespace ARLocation.UI
 
             if (UsePercentageText)
             {
-                barText.text ="Distance to ghost: "+ (int)(FillPercentage * 100.0f) + " m";
+                barText.text =distanceToGhostLocalized.GetLocalizedString() + (int)(FillPercentage * 100.0f) + " m";
             }
             else
             {

@@ -29,6 +29,7 @@ public class ObjectManager : MonoBehaviour
     void Start()
     {
         UIManager.instance.ghostMovedText.SetActive(false);
+        Application.targetFrameRate = 30;
     }
     public void NextGhost()
     {
@@ -84,6 +85,7 @@ public class ObjectManager : MonoBehaviour
         {
             obj.gameObject.SetActive(true);
             obj.GetComponent<PlacedObject>().disappearing = false;
+            obj.GetComponent<PlacedObject>().anim.ResetTrigger("Disappear");
         }
         else if (obj.gameObject.activeSelf)
         {

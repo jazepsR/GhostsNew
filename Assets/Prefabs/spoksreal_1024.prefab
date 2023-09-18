@@ -174,8 +174,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 2, z: 2}
-  m_Center: {x: 2.72, y: 0.14499997, z: 0}
+  m_Size: {x: 8.463579, y: 5.0387325, z: 0.24}
+  m_Center: {x: 1.3800001, y: -0.16776942, z: 0}
 --- !u!1 &3309112083803854737
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,6 +287,7 @@ GameObject:
   - component: {fileID: 4178818572501865413}
   - component: {fileID: 1153153785261954871}
   - component: {fileID: 6894637623262355408}
+  - component: {fileID: 4238811029011783095}
   m_Layer: 0
   m_Name: spoksreal_1024
   m_TagString: ghost
@@ -308,7 +309,7 @@ Transform:
   m_Children:
   - {fileID: 7380512801703527557}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2151600631074787561
 MonoBehaviour:
@@ -340,9 +341,9 @@ MonoBehaviour:
     MovementSmoothing: 0.149329
     MaxNumberOfLocationUpdates: 2
     UseMovingAverage: 0
-    showDistance: 7
+    showDistance: 10
     HideObjectUntilItIsPlaced: 1
-    ShowObjectAfterThisManyUpdates: 3
+    ShowObjectAfterThisManyUpdates: 2
   DebugMode: 0
   ObjectLocationUpdated:
     m_PersistentCalls:
@@ -366,7 +367,7 @@ MonoBehaviour:
   collected: 0
   gotHit: 0
   disableTime: 0.5
-  randomDisplacement: 7
+  randomDisplacement: 10
   ghostLight: {fileID: 0}
   rootBone: {fileID: 7380512801703527557}
   moveSpeed: 1
@@ -466,8 +467,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 2, z: 2}
-  m_Center: {x: -1.334468, y: -0.9464063, z: 16.337416}
+  m_Size: {x: 4.01621, y: 8.745768, z: 0.2267074}
+  m_Center: {x: -0.3263629, y: 0.40274715, z: 0.2127926}
 --- !u!114 &6894637623262355408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -480,6 +481,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0b9a8d781a2a4f59ae00456bdc5dd7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4238811029011783095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6608985507204010009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57c008f954fe54a8bb972de1018a2cb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RootBone: {fileID: 7380512801703527557}
+  m_BoneTransforms: []
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_UseBatching: 1
+  m_AlwaysUpdate: 1
+  m_AutoRebind: 1
 --- !u!1 &7193160508665881133
 GameObject:
   m_ObjectHideFlags: 0
