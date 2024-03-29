@@ -28,7 +28,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   m_Metadata:
-    m_Items: []
+    m_Items:
+    - rid: 5163195121801101327
   m_KeyGenerator:
     rid: 3446946375140638753
   references:
@@ -39,3 +40,24 @@ MonoBehaviour:
         asm: Unity.Localization}
       data:
         m_CustomEpoch: 1690036971745
+    - rid: 5163195121801101327
+      type: {class: AssetTypeMetadata, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        - m_KeyId: 632926969856
+          m_TableCodes:
+          - en
+          - lv
+          - ru
+        - m_KeyId: 839672602624
+          m_TableCodes:
+          - en
+          - lv
+          - ru
+        - m_KeyId: 1078856982528
+          m_TableCodes:
+          - en
+          - lv
+          - ru
+        m_TypeString: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null

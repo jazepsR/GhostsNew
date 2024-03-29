@@ -19,15 +19,15 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 632926969856
-    m_Localized: 870542990e2c9a9408332de96d6f0928[UI_BUTTON_START_ru]
+    m_Localized: 870542990e2c9a9408332de96d6f0928
     m_Metadata:
       m_Items: []
   - m_Id: 839672602624
-    m_Localized: f8bb9b07e532f2f4fb04a5c9a849e79b[UI_BUTTON_NEXT_ru]
+    m_Localized: f8bb9b07e532f2f4fb04a5c9a849e79b
     m_Metadata:
       m_Items: []
   - m_Id: 1078856982528
-    m_Localized: c97b5ba0d7c45964eb8c4e0c6ca63698[UI_BUTTON_PLAY_ru]
+    m_Localized: c97b5ba0d7c45964eb8c4e0c6ca63698
     m_Metadata:
       m_Items: []
   references:

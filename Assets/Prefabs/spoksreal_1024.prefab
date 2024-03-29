@@ -366,6 +366,7 @@ MonoBehaviour:
   disappearing: 0
   collected: 0
   gotHit: 0
+  anim: {fileID: 0}
   disableTime: 0.5
   randomDisplacement: 10
   ghostLight: {fileID: 0}
@@ -494,10 +495,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_RootBone: {fileID: 7380512801703527557}
-  m_BoneTransforms: []
+  m_BoneTransforms:
+  - {fileID: 7380512801703527557}
+  - {fileID: 4716572845535633125}
+  - {fileID: 3844480827123660297}
+  - {fileID: 8318633145229748636}
+  - {fileID: 2008038524708704200}
+  - {fileID: 5229440216358310782}
+  - {fileID: 5220467607589276009}
+  - {fileID: 1675613219859266392}
+  - {fileID: 2680153457544563867}
+  - {fileID: 5185192562027863178}
+  - {fileID: 5552123884975671625}
+  - {fileID: 5140672450907931774}
+  - {fileID: 1567430282563646907}
   m_Bounds:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0, y: 0, z: 0}
+    m_Center: {x: -0.16331697, y: 0.8559989, z: 6.90422}
+    m_Extent: {x: 1.46948, y: 2.4729164, z: 0.00000047683716}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 1
