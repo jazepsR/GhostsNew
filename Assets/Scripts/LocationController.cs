@@ -23,7 +23,7 @@ public class LocationController : MonoBehaviour
 
     private void Update()
     {
-        if(IsRunning)
+       /* if(IsRunning)
         {
             float dist = Input.location.lastData.DistanceTo(locationSettings.location);
             //Debug.Log("[" + Input.location.lastData.latitude + "," + Input.location.lastData.longitude + "]");
@@ -47,7 +47,7 @@ public class LocationController : MonoBehaviour
         else
         {
             //m_distanceText.text = "Location service " + Input.location.status.ToString();
-        }
+        }*/
     }
 
     private IEnumerator StartLocationService()

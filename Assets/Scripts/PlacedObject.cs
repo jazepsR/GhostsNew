@@ -15,6 +15,7 @@ public class PlacedObject : MonoBehaviour
     public Transform rootBone; 
     public float moveSpeed = 1f;
     public int health = 3;
+    private float distanceFromPlayer = 2f;
     Vector3 target=Vector3.one;
     // Start is called before the first frame update
     void Awake()
@@ -26,6 +27,11 @@ public class PlacedObject : MonoBehaviour
     {
         //startPosition = Camera.main.transform.position;
         anim = GetComponent<Animator>();
+        if (anim)
+            anim.SetTrigger("Appear");
+        Vector2 randomDir = Random.insideUnitCircle * randomDisplacement;
+        target = Camera.main.transform.position + new Vector3(randomDir.x, 0, randomDir.y);
+        transform.position = target;
     }
     private void Start()
     {
@@ -34,7 +40,9 @@ public class PlacedObject : MonoBehaviour
         // rootBone.localPosition = new Vector3(randomDir.x, 0, randomDir.y);
         disappearing = false;
         //startPosition = transform.position;
-        anim.ResetTrigger("Disappear");
+
+        if (anim)
+            anim.ResetTrigger("Disappear");
         SetTarget();
     }
     private void Update()
@@ -42,12 +50,9 @@ public class PlacedObject : MonoBehaviour
         if (target == null)
             SetTarget();
         float dist = Vector3.Distance(transform.position, target);
+        transform.position = Vector3.MoveTowards(transform.position, target, Time.deltaTime * moveSpeed);
         //Debug.LogError("dist: " + dist);
-        if (dist > 1)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, target, Time.deltaTime * moveSpeed);
-        }
-        else
+        if (dist < 1 ) 
         {
             SetTarget();
         }
@@ -66,20 +71,32 @@ public class PlacedObject : MonoBehaviour
         {
             health--;
             gotHit = true;
-            anim.SetTrigger("Hit");
+
+            if (anim)
+                anim.SetTrigger("Hit");
             Invoke("ResetHit", 1f);
             MusicController.instance.PlayHitSound();
         }
     }
-
+    private float DistanceToLine(Ray ray, Vector3 point) 
+    {
+        return Vector3.Cross(ray.direction, point - ray.origin).magnitude; 
+    }
     private void ResetHit()
     {
         gotHit = false;
     }
     private void SetTarget()
     {
-        Vector2 randomDir = Random.insideUnitCircle * randomDisplacement;
-        target = Camera.main.transform.position + new Vector3(randomDir.x, 0, randomDir.y);
+        for(int i =0;i <100; i++)
+        {
+            Vector2 randomDir = Random.insideUnitCircle * randomDisplacement;
+            target = Camera.main.transform.position + new Vector3(randomDir.x, 0, randomDir.y);
+            Ray ghostPath = new Ray(transform.position, transform.position - target);
+            if (DistanceToLine(ghostPath, Camera.main.transform.position) > distanceFromPlayer)
+                break;
+        }
+
     }
     // Update is called once per frame
     

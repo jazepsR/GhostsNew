@@ -139,7 +139,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7380512801703527557}
-  - component: {fileID: 6219284291048367274}
   m_Layer: 0
   m_Name: bone_1
   m_TagString: ghost
@@ -155,7 +154,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2613668268455279943}
   m_LocalRotation: {x: 0, y: 0, z: 0.6691307, w: 0.7431448}
-  m_LocalPosition: {x: -0.4459635, y: -0.94339997, z: 13.80844}
+  m_LocalPosition: {x: -0.4459635, y: -0.94339997, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -163,19 +162,6 @@ Transform:
   m_Father: {fileID: 5691038522706603118}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 84}
---- !u!65 &6219284291048367274
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2613668268455279943}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 8.463579, y: 5.0387325, z: 0.24}
-  m_Center: {x: 1.3800001, y: -0.16776942, z: 0}
 --- !u!1 &3309112083803854737
 GameObject:
   m_ObjectHideFlags: 0
@@ -468,8 +454,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.01621, y: 8.745768, z: 0.2267074}
-  m_Center: {x: -0.3263629, y: 0.40274715, z: 0.2127926}
+  m_Size: {x: 7.044853, y: 8.984709, z: 0}
+  m_Center: {x: -0.2502947, y: 2.3074627, z: 0}
 --- !u!114 &6894637623262355408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -510,10 +496,10 @@ MonoBehaviour:
   - {fileID: 5140672450907931774}
   - {fileID: 1567430282563646907}
   m_Bounds:
-    m_Center: {x: -0.16331697, y: 0.8559989, z: 6.90422}
-    m_Extent: {x: 1.46948, y: 2.4729164, z: 0.00000047683716}
-  m_UseBatching: 1
-  m_AlwaysUpdate: 1
+    m_Center: {x: -0.06773305, y: 1.6873331, z: 0}
+    m_Extent: {x: 2.8279357, y: 4.9556937, z: 0}
+  m_UseBatching: 0
+  m_AlwaysUpdate: 0
   m_AutoRebind: 1
 --- !u!1 &7193160508665881133
 GameObject:
