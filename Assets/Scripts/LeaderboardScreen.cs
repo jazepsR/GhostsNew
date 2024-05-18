@@ -38,11 +38,6 @@ public class LeaderboardScreen : MonoBehaviour
             obj.SetupLeaderboardEntry(scoresResponse.Results[i].Rank, scoresResponse.Results[i].PlayerName, scoresResponse.Results[i].Score);
         }
 
-        /*for (int i = 0; i < 19; i++)
-        {
-            LeaderboardEntry obj = Instantiate(entry, leaderboardEntryParent);
-            obj.SetupLeaderboardEntry(i, "buttlicker", 66);
-        }*/
         if (WinScreen.instance.scoreResponse != null && WinScreen.instance.scoreResponse.Rank > scoresResponse.Results.Count)
         {
             LeaderboardEntry player = Instantiate(entry, leaderboardEntryParent);

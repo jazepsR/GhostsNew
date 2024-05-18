@@ -12,7 +12,7 @@ public class MusicController : MonoBehaviour
     [HideInInspector] public bool isMap = true;
     public static MusicController instance;
     public List<AudioClip> enemyHitSounds;
-    void Awake()
+    void OnEnable()
     {        
         GameObject[] objs = GameObject.FindGameObjectsWithTag("music");
         if (objs.Length > 1)

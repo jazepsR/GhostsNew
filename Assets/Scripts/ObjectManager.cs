@@ -43,7 +43,10 @@ public class ObjectManager : MonoBehaviour
             ShowWinMenu();  
         }
     }
-
+    public void Reset()
+    {
+        currentGhost = 0;
+    }
     private void ShowWinMenu()
     {
         UIManager.instance.SetWinMode();

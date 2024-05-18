@@ -11,7 +11,10 @@ public class GameManager : MonoBehaviour
     {
         instance = this; 
     }
-
+    public void Reset()
+    {
+        score = 0;
+    }
     public void IncreaseScore()
     {
         score = score + 1;

@@ -2,6 +2,7 @@ using Newtonsoft.Json;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using TMPro;
 using Unity.Services.Authentication;
 using Unity.Services.Leaderboards;
 using UnityEngine;
@@ -12,7 +13,7 @@ public class WinScreen : MonoBehaviour
     const string LeaderboardId = "Jaunpils_Times";
     private string username = "";
     private string usernameKey = "usernameSaveKey";
-    public GameObject nameEntryField;
+    public TMP_InputField nameEntryField;
     public Unity.Services.Leaderboards.Models.LeaderboardEntry scoreResponse = null;
     public static WinScreen instance;
 
@@ -23,7 +24,8 @@ public class WinScreen : MonoBehaviour
     void Start()
     {
         username =PlayerPrefs.GetString(usernameKey, "");
-        nameEntryField.SetActive(username != "");
+        nameEntryField.text = username;
+        //nameEntryField.SetActive(username != "");
     }
 
     public async void SetUsername(string nameToSet)
@@ -40,7 +42,7 @@ public class WinScreen : MonoBehaviour
     }
     public async Task UpdateUsername()
     {
-        if (username != "")
+       // if (username != "")
         {
             var scoreResponse = await AuthenticationService.Instance.UpdatePlayerNameAsync(username);
             Debug.Log(JsonConvert.SerializeObject(scoreResponse));
@@ -50,7 +52,6 @@ public class WinScreen : MonoBehaviour
     public async Task AddScore()
     {
         float score = UIManager.instance.GetFinalTime();
-        score = 11;
         if (score != -1)
         {
             scoreResponse = await LeaderboardsService.Instance.AddPlayerScoreAsync(LeaderboardId, score);

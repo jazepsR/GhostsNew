@@ -115,8 +115,8 @@ public class MainMenu : MonoBehaviour
     }
     public void StartGame()
     {
-        MusicController.instance.soundFX.Stop();
         SceneManager.LoadScene(1);
+        MusicController.instance.soundFX.Stop();
     }
 }
 

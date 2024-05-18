@@ -6,6 +6,7 @@ using UnityEditor;
 using System;
 using UnityEngine.Localization;
 using UnityEngine.SocialPlatforms.Impl;
+using UnityEngine.SceneManagement;
 
 public enum UIMode { map, AR, win, leaderboard}
 public class UIManager : MonoBehaviour
@@ -53,7 +54,7 @@ public class UIManager : MonoBehaviour
         viewerMode = UIMode.map;
         ToggleViewMode();
     }
-
+    
     public void SetARMode()
     {
         viewerMode = UIMode.AR;
@@ -64,6 +65,15 @@ public class UIManager : MonoBehaviour
     {
         viewerMode = UIMode.map;
         ToggleViewMode();
+    }
+
+    public void ResetGame()
+    {
+        finishTime = 0;
+        startTime = Time.time;
+        ObjectManager.instance.Reset();
+        SetMapMode();
+        GameManager.instance.Reset();
     }
 
     public void SetWinMode()
