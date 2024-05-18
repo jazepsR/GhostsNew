@@ -15,6 +15,7 @@ public class PlacedObject : MonoBehaviour
     public Transform rootBone; 
     public float moveSpeed = 1f;
     public int health = 3;
+    private int startingHealth = 0;
     private float distanceFromPlayer = 2f;
     Vector3 target=Vector3.one;
     // Start is called before the first frame update
@@ -25,6 +26,8 @@ public class PlacedObject : MonoBehaviour
     }
     private void OnEnable()
     {
+        if(health != 0)
+            startingHealth = health;
         //startPosition = Camera.main.transform.position;
         anim = GetComponent<Animator>();
         if (anim)
@@ -32,6 +35,12 @@ public class PlacedObject : MonoBehaviour
         Vector2 randomDir = Random.insideUnitCircle * randomDisplacement;
         target = Camera.main.transform.position + new Vector3(randomDir.x, 0, randomDir.y);
         transform.position = target;
+    }
+    public void Reset()
+    {
+        health = startingHealth;
+        disappearing = false;
+        collected = false;
     }
     private void Start()
     {

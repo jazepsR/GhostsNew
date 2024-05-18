@@ -46,6 +46,8 @@ public class ObjectManager : MonoBehaviour
     public void Reset()
     {
         currentGhost = 0;
+        foreach (PlacedObject placedObject in placedObjects)
+            placedObject.Reset();
     }
     private void ShowWinMenu()
     {
