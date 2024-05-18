@@ -30,14 +30,14 @@ Transform:
   m_Children:
   - {fileID: 387864497093028427}
   - {fileID: 387864498581902856}
-  - {fileID: 387864497742750516}
   - {fileID: 387864498163293178}
+  - {fileID: 387864497742750516}
   - {fileID: 387864497662793933}
   - {fileID: 387864497252279586}
   - {fileID: 387864498177702865}
   - {fileID: 387864498384836154}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &5448046952103754324
 PrefabInstance:
@@ -637,6 +637,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ghostIsland
+      objectReference: {fileID: 0}
+    - target: {fileID: 6608985507204010009, guid: d045840d8e15c4b7a9c328fdc6824c1c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []

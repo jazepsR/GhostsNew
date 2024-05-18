@@ -309,6 +309,16 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4151606516892821946, guid: 5d162bacf5507eb45a9466610f0752df,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4151606517019643240, guid: 5d162bacf5507eb45a9466610f0752df,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4151606517161853857, guid: 5d162bacf5507eb45a9466610f0752df,
         type: 3}
       propertyPath: m_Pivot.x
@@ -419,6 +429,28 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainMenCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 4151606517225598095, guid: 5d162bacf5507eb45a9466610f0752df,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dd3d8ec229c5556468ff073b077ed327,
+        type: 3}
+    - target: {fileID: 4151606517872366041, guid: 5d162bacf5507eb45a9466610f0752df,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4151606518306238246, guid: 5d162bacf5507eb45a9466610f0752df,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4151606518822832762, guid: 5d162bacf5507eb45a9466610f0752df,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dd3d8ec229c5556468ff073b077ed327,
+        type: 3}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d162bacf5507eb45a9466610f0752df, type: 3}

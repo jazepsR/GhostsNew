@@ -22,18 +22,21 @@ MonoBehaviour:
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
+    - Locale-en-NZ
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d11c842644ff163489604d5775e4b40f
     m_Address: UI_BUTTON_NEXT
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
+    - Locale-en-NZ
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1a388b4ad9234514996f3306259f5714
     m_Address: UI_BUTTON_PLAY
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
+    - Locale-en-NZ
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 80af8a8ab1f12cf458379fe013dccc79, type: 2}

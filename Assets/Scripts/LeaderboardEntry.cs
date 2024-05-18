@@ -12,9 +12,19 @@ public class LeaderboardEntry : MonoBehaviour
 
     public void SetupLeaderboardEntry(int rank,  string playerName, double playerTime)
     {
-        this.rank.text = (rank+1).ToString();
-        this.playerName.text = playerName.Split('#')[0];
-        this.playerTime.text = UIManager.GetTimeString((float)playerTime);
+        string playerNameString = playerName.Split('#')[0];
+        if (playerNameString == WinScreen.instance.username)
+        {
+            this.playerName.text = "<color=#ffffff>"+playerNameString+ "</color>";
+            this.playerTime.text = "<color=#ffffff>"+UIManager.GetTimeString((float)playerTime)+ "</color>";
+            this.rank.text = "<color=#ffffff>" + (rank + 1).ToString()+ "</color>";
+        }
+        else
+        {
+            this.playerName.text = playerNameString;
+            this.playerTime.text = UIManager.GetTimeString((float)playerTime);
+            this.rank.text = (rank + 1).ToString();
+        }
 
     }
     // Start is called before the first frame update

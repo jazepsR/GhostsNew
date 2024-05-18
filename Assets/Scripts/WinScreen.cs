@@ -11,7 +11,7 @@ using UnityEngine.SocialPlatforms.Impl;
 public class WinScreen : MonoBehaviour
 {
     const string LeaderboardId = "Jaunpils_Times";
-    private string username = "";
+    public string username = "";
     private string usernameKey = "usernameSaveKey";
     public TMP_InputField nameEntryField;
     public Unity.Services.Leaderboards.Models.LeaderboardEntry scoreResponse = null;

@@ -39,7 +39,8 @@ public class UIManager : MonoBehaviour
     public GameObject ghostMovedText;
     [HideInInspector] public float startTime = 0;
     [HideInInspector] public float finishTime = 0;
-
+    [SerializeField] private LayerMask UI, AR;
+    
     private void Awake()
     {
         instance = this;
@@ -58,12 +59,14 @@ public class UIManager : MonoBehaviour
     public void SetARMode()
     {
         viewerMode = UIMode.AR;
+        Camera.main.cullingMask = AR;
         ToggleViewMode();
     }
 
     public void SetMapMode()
     {
         viewerMode = UIMode.map;
+        Camera.main.cullingMask = UI;
         ToggleViewMode();
     }
 
