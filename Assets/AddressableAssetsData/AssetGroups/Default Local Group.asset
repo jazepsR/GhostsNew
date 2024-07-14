@@ -21,12 +21,88 @@ MonoBehaviour:
     m_Address: Assets/Localization/Fonts Shared Data.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 175840c6afd101945b9056e50d59d27e
     m_Address: Assets/Localization/Localization Settings.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a150413473b61204a97e05e1fd64cf39
+    m_Address: Assets/Localization/Localization Shared Data.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 37b597b0c46aac0498571f118672e9e5
+    m_Address: English (en)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale
+  - m_GUID: b465d293fb0008841ae5ca9c6c8ae67f
+    m_Address: English (New Zealand) (en-NZ)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale
+  - m_GUID: 750d57302be021841ba1ea8b46e1f7c1
+    m_Address: Latvian (lv)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale
+  - m_GUID: cf9570ad531609e4d9449f4074c4f905
+    m_Address: Assets/Localization/Localization.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6f33c3799c3a18747ad73317aa14f70d
+    m_Address: Localization_en-NZ
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-en-NZ
+    - Preload
+  - m_GUID: 3bde8b33c40c7ce49960cb4b3c86f9a7
+    m_Address: Localization_en
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: 74445553f63f25f41968c3b63ea47727
+    m_Address: Localization_lv
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-lv
+    - Preload
+  - m_GUID: a302ab3d9ee2a7c4a993489faa3ef0c4
+    m_Address: Localization_ru
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-ru
+    - Preload
+  - m_GUID: ada017e7ec6068246b19cae9e9f4a312
+    m_Address: Russian (ru)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale
+  - m_GUID: b4e864477cb30d04d9d033b63e74b15d
+    m_Address: Assets/Localization/Sprites Shared Data.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a74e72510fc8de0468f09fdf038955a8
+    m_Address: Assets/Localization/Sprites.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: caa8c8aa81f4aa44e83956b9d97c7237
+    m_Address: Sprites_en
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-en
+    - Preload
+  - m_GUID: d61c8c4963ceb1b4ea28ae521453b501
+    m_Address: Sprites_ru
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-ru
+    - Preload
+  - m_GUID: c8f45c92802cc664ea97498871250aee
+    m_Address: Sprites_lv
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Locale-lv
+    - Preload
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 80af8a8ab1f12cf458379fe013dccc79, type: 2}
   m_SchemaSet:

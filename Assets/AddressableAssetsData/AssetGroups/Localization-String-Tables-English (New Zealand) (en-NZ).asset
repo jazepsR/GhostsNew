@@ -16,14 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: b207d738d7de92e4892e585b430a8722
-  m_SerializeEntries:
-  - m_GUID: 6f33c3799c3a18747ad73317aa14f70d
-    m_Address: Localization_en-NZ
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-en-NZ
-    - Preload
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 80af8a8ab1f12cf458379fe013dccc79, type: 2}
   m_SchemaSet:

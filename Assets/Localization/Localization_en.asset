@@ -141,6 +141,18 @@ MonoBehaviour:
     m_Localized: 'Distance to ghost: '
     m_Metadata:
       m_Items: []
+  - m_Id: 126033755476533248
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126035946950041600
+    m_Localized: Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126036208066437120
+    m_Localized: Play
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:

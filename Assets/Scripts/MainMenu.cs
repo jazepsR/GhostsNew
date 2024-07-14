@@ -9,6 +9,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.Localization;
 using UnityEngine.Localization.Settings;
 using TMPro;
+using I2;
 using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
@@ -33,6 +34,7 @@ public class MainMenu : MonoBehaviour
         tutorialMenu.SetActive(false);
         textMenuCanvas.alpha = 0;
         tutorialID = 0;
+        
     }
 
     public void OpenPrivacyPolicy()
@@ -70,16 +72,31 @@ public class MainMenu : MonoBehaviour
 
     private void SetupTutorialScreen(TutorialData data)
     {
-        tutorialHeading.text = data.screenTitle.GetLocalizedString();
+        // tutorialHeading.text = data.screenTitle.GetLocalizedString();
+        tutorialHeading.text = data.newTitle;
         tutorialImage.sprite = data.screenImage;
-        tutorialBody.text = data.screenDescription.GetLocalizedString();
+        tutorialBody.text = data.newDescription;
+       // tutorialBody.text = data.screenDescription.GetLocalizedString();
+    }
+
+    public void SelectLatvian()
+    {
+        LocaleSelected(2);
+    }
+    public void SelectRussian()
+    {
+        LocaleSelected(3);
+    }
+    public void SelectEnglish()
+    {
+        LocaleSelected(0);
     }
     public void LocaleSelected(int index)
     {
-        LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[index];
         textMenu.SetActive(true);
         //languageMenu.SetActive(false);
         StartCoroutine(FadeInTextMenu());
+        //LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[index];
     }
 
     async Task SignInAnonymously()
@@ -124,6 +141,8 @@ public class MainMenu : MonoBehaviour
 public class TutorialData
 {
     public LocalizedString screenTitle;
+    public I2.Loc.LocalizedString newTitle;
     public Sprite screenImage;
     public LocalizedString screenDescription;
+    public I2.Loc.LocalizedString newDescription;
 }
