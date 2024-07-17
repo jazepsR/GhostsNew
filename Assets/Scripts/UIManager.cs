@@ -4,9 +4,10 @@ using UnityEngine;
 using TMPro;
 using UnityEditor;
 using System;
-using UnityEngine.Localization;
 using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.SceneManagement;
+using I2;
+using I2.Loc;
 
 public enum UIMode { map, AR, win, leaderboard}
 public class UIManager : MonoBehaviour
@@ -119,11 +120,11 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        score.text = scoreTextLocalized.GetLocalizedString()+ GameManager.instance.score;
+        score.text = scoreTextLocalized+ GameManager.instance.score;
         //score.text = "Score: " + GameManager.instance.score;
         //time.text = "Time: "+ string.Format("{0:00}", (Time.time - startTime));
         time.text =  GetTimeString(Time.time - startTime);
-        mapHeading.text = castleFloorNames[castleController.currentFloor].GetLocalizedString();
+        mapHeading.text = castleFloorNames[castleController.currentFloor];
        // scoreTextLocalized.RefreshString();
     }
 }

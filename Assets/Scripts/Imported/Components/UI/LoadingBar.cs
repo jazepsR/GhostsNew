@@ -1,7 +1,8 @@
 using UnityEngine;
-using UnityEngine.Localization;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
+using I2;
+using I2.Loc;
 
 namespace ARLocation.UI
 {
@@ -56,7 +57,7 @@ namespace ARLocation.UI
 
             if (UsePercentageText)
             {
-                barText.text =distanceToGhostLocalized.GetLocalizedString() + (int)(FillPercentage * 100.0f) + " m";
+                barText.text =distanceToGhostLocalized + (int)(FillPercentage * 100.0f) + " m";
             }
             else
             {

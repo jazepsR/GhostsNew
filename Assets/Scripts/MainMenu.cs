@@ -6,8 +6,6 @@ using Unity.Services.Core;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.Localization;
-using UnityEngine.Localization.Settings;
 using TMPro;
 using I2;
 using UnityEngine.UI;
@@ -140,9 +138,7 @@ public class MainMenu : MonoBehaviour
 [System.Serializable]
 public class TutorialData
 {
-    public LocalizedString screenTitle;
     public I2.Loc.LocalizedString newTitle;
     public Sprite screenImage;
-    public LocalizedString screenDescription;
     public I2.Loc.LocalizedString newDescription;
 }
