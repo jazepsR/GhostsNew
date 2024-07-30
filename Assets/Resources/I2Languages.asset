@@ -370,7 +370,7 @@ MonoBehaviour:
       - 126033755476533248
       - Start
       - "S\u0101kt"
-      - "\u041D\u0430\u0447\u0438\u043D\u0430\u0442\u044C"
+      - "\u0441\u0442\u0430\u0440\u0442\r"
       Flags: 00000000
       Languages_Touch: []
     - Term: Next
@@ -380,7 +380,7 @@ MonoBehaviour:
       - 126035946950041600
       - Next
       - "T\u0101l\u0101k"
-      - "\u0414\u0430\u043B\u044C\u0448\u0435"
+      - "\u0434\u0430\u043B\u044C\u0448\u0435\r"
       Flags: 00000000
       Languages_Touch: []
     - Term: Play
@@ -390,7 +390,7 @@ MonoBehaviour:
       - 126036208066437120
       - Play
       - "Sp\u0113l\u0113t"
-      - "\u0418\u0433\u0440\u0430\u0442\u044C"
+      - "\u0438\u0433\u0440\u0430\u0442\u044C\r"
       Flags: 00000000
       Languages_Touch: []
     CaseInsensitiveTerms: 0
