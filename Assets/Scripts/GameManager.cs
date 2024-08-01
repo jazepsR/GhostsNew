@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Services.Core;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -9,7 +10,8 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        instance = this; 
+        instance = this;
+        UnityServices.InitializeAsync();
     }
     public void Reset()
     {
