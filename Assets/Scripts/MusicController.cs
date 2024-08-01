@@ -34,7 +34,8 @@ public class MusicController : MonoBehaviour
     }
     public void PlayHitSound()
     {
-        soundFX.PlayOneShot(enemyHitSounds[Random.Range(0,enemyHitSounds.Count)]);
+        if(soundFX)
+            soundFX.PlayOneShot(enemyHitSounds[Random.Range(0,enemyHitSounds.Count)]);
     }
     void Update()
     {
